@@ -40,15 +40,15 @@ El sistema se ejecuta sobre una infraestructura moderna, optimizada para entorno
 
 Todas las peticiones en producción deben anteponer el dominio seguro y el prefijo de versión: `https://www.duban-curriculum.com/api/v1`
 
-### 🧑‍🦱 Gestión de Pacientes
+### Gestión de Pacientes
 * **`POST`** `/pacientes`  
   *Crea un paciente en el sistema cumpliendo con las validaciones de identidad obligatorias (RF-02).*
 
-### 🩺 Gestión de Médicos
+### Gestión de Médicos
 * **`POST`** `/doctores`  
   *Registra un médico con su respectiva especialidad dentro del sistema hospitalario (RF-01).*
 
-### 📅 Motor de Citas Médicas
+### Motor de Citas Médicas
 * **`POST`** `/citas`  
   *Permite a un paciente reservar un turno con un médico, validando franjas de 30 minutos, fines de semana, festivos, colisiones de agenda y edad opcional (RF-03 / RN-01 a RN-04).*
 * **`GET`** `/citas/franjas-disponibles`  
