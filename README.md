@@ -1,4 +1,4 @@
-# 🏥 MediSalud - Enterprise Medical Appointment Engine
+# 🏥 MediSalud - Citas
 
 Sistema de agendamiento de citas médicas de alta criticidad, diseñado bajo los paradigmas de **Domain-Driven Design (DDD)** y **Arquitectura Hexagonal**. El núcleo del sistema ejecuta de forma determinista las reglas tácticas del negocio médico, garantizando la consistencia transaccional, control estricto de agendas concurrentes y persistencia desacoplada.
 
